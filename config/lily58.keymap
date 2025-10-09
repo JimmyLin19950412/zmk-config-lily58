@@ -52,11 +52,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3    &kp F4         &kp F5                                      &kp F6     &kp F7     &kp F8           &kp F9          &kp F10         &kp F11
-&trans   &trans  &trans  &kp HOME  &kp PAGE_UP    &kp PRINTSCREEN                             &kp KP_N7  &kp KP_N8  &kp KP_N9        &kp KP_MINUS    &trans          &trans
-&trans   &trans  &trans  &kp END   &kp PAGE_DOWN  &kp DELETE                                  &kp KP_N4  &kp KP_N5  &kp KP_NUMBER_6  &kp KP_PLUS     &kp UP_ARROW    &trans
-&trans   &trans  &trans  &trans    &trans         &trans           &trans    &kp KP_DIVIDE    &kp KP_N1  &kp KP_N2  &kp KP_N3        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                         &trans    &trans         &trans           &trans    &kp KP_ASTERISK  &kp KP_N0  &kp DOT    &kp ENTER
+&kp F12       &kp F1  &kp F2  &kp F3    &kp F4         &kp F5                                      &kp F6     &kp F7     &kp F8           &kp F9          &kp F10         &kp F11
+&trans        &trans  &trans  &kp HOME  &kp PAGE_UP    &kp PRINTSCREEN                             &kp KP_N7  &kp KP_N8  &kp KP_N9        &kp KP_MINUS    &trans          &trans
+&kp CAPSLOCK  &trans  &trans  &kp END   &kp PAGE_DOWN  &kp DELETE                                  &kp KP_N4  &kp KP_N5  &kp KP_NUMBER_6  &kp KP_PLUS     &kp UP_ARROW    &trans
+&trans        &trans  &trans  &trans    &trans         &trans           &trans    &kp KP_DIVIDE    &kp KP_N1  &kp KP_N2  &kp KP_N3        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                              &trans    &trans         &trans           &trans    &kp KP_ASTERISK  &kp KP_N0  &kp DOT    &kp ENTER
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
